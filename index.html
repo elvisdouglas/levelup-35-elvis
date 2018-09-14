@@ -10,21 +10,16 @@
     <!-- js -->
 
     <!-- external -->
-<style>
-    body {
-        background: url(todo.jpeg);
-        background-size: fixed no-repeat;
-    }
-</style>
+
     <!-- Inline -->
 
-        <link rel="stylesheet" href="Assets/css/main.css"/>
+        <link rel="stylesheet" href="main.css"/>
         
 </head>
 
 <body>
     <div class="container-1">
-    <form action="Assets/todo.html">
+    <form action="#">
         <h1 class="heading" style="color:rgb(0, 68, 255)">ToDo List App</h1>
         <br>
         <div class="form">
@@ -35,11 +30,31 @@
                 <br><br>
             <input type="submit" value="Log In" style="background-color:rgb(250, 34, 34)" />
                 <br><br>
-            <a href="#">Create An Account</a>
+            <a href="#create" >Create An Account</a>
         </div>
     </form>
     </div>
-    
+	
+	<div id="create">
+		<form action="#" id="form_sign">
+			<h1 style="color: Orange;">Create An Account</h1>
+			<br>
+			<div class="form_create">
+				
+				Email: <input type="email" name="" placeholder="email" required />
+				<br>
+				
+				Username: <input type="text" name="" placeholder="Username" required />
+				<br>
+				
+				Password: <input type="password" name="" placeholder="Password" required />
+				<br><br>
+				<input type="submit" value="Sign Up" style="background-color:rgb(250, 34, 34)" />
+
+			</div>
+		</form>
+	</div>
+	
 </body>
 
 </html>
