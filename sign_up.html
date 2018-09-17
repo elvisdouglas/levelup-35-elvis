@@ -13,30 +13,36 @@
     
     <!-- Inline -->
 
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="sign_up.css" />
 
 </head>
 
 <body>
-<div class="bg">
-   <div id="sign">
-		<form action="#" id="form_sign">
-			<h1 style="color: Orange;">Create An Account</h1>
-			<br>
-			<div class="form_create">
-				
-				Email: <input type="email" name="" placeholder="email" required />
-				<br>
-				
-				Username: <input type="text" name="" placeholder="Username" required />
-				<br>
-				
-				Password: <input type="password" name="" placeholder="Password" required />
-				<br><br>
-				<input type="submit" value="Sign Up" style="background-color:rgb(250, 34, 34)" />
-			
-			</div><br>
-			<a href="index.html">Have An Account!</a>
+	<div class="top">
+		<h2>CREATE ACCOUNT</h2>
+	</div>
+<div class="main">
+   <div class="new">
+		<form action="home.html" id="form_sign" class="sign_form">
+			<h1>Create An Account</h1>
+			<div class="email">
+				<label for="email">Email:</label>
+				 <input type="email" name="email_address" id="email" placeholder="email" required />
+			</div>
+			<div class="user">
+				<label for="user">Username:</label>
+				<input type="text" name="user" id="user" placeholder="Username" required />
+			</div>
+			<div>
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" placeholder="Password" required />
+			</div>
+			<div class="submit">
+				<button type="submit" name="sign">Sign Up</button>
+			</div>	
+			<div class="account">
+				<a href="index.html">Have An Account!</a>
+			</div>
 		</form>
 	</div>
 </div>

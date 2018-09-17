@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    width: auto;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(23, rgb(96, 112, 1);
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(12, 1, 163);
+    width: auto;
+}
+
+h1{
+    font-size:  color: rgb(202, 66, 3);
+}
